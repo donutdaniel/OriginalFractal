@@ -5,6 +5,7 @@ public void setup(){
 }
 
 public void draw(){
+	background(255);
 	fractal(0,0,0,height,0,0,5);
 	fractal(0,0,0,height,0,1,5);
 	fractal(0,0,width,0,0,2,5);
@@ -12,6 +13,7 @@ public void draw(){
 }
 
 public void mouseDragged(){
+	background(255);
 	fractal(0,0,0,height,0,0,mouseX);
 	fractal(0,0,0,height,0,1,mouseX);
 	fractal(0,0,width,0,0,2,mouseX);
