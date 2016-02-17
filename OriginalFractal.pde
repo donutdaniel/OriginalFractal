@@ -14,10 +14,10 @@ public void draw(){
 
 public void mouseDragged(){
 	background(255);
-	fractal(0,0,0,height,0,0,mouseX);
-	fractal(0,0,0,height,0,1,mouseX);
-	fractal(0,0,width,0,0,2,mouseX);
-	fractal(0,0,width,0,0,3,mouseX);
+	fractal(0,0,0,height,0,0,mouseX/2);
+	fractal(0,0,0,height,0,1,mouseX/2);
+	fractal(0,0,width,0,0,2,mouseX/2);
+	fractal(0,0,width,0,0,3,mouseX/2);
 }
 
 public void fractal(int x, int y, int x1, int y1, int rep, int poo, int plus){
