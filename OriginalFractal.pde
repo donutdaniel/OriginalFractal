@@ -21,7 +21,7 @@ public void fractal(int x, int y, int x1, int y1, int rep, int poo){
 			fractal(x+5,height,width,y1-5, rep+1,1);
 		} else if(poo==2){
 			fractal(x+5,0,width,y1+5,rep+1,2);
-		}else {
+		} else {
 			fractal(width,y+5,x1-5,height,rep+1,3);
 		}
 }
