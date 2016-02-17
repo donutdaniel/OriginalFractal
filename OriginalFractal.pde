@@ -18,10 +18,10 @@ public void fractal(int x, int y, int x1, int y1, int rep, int poo){
 		if(poo==0){
 			fractal(0,y+5,x1+5,height, rep+1,0);
 		} else if(poo==1){
-			fractal(x+5,height,width,y1-5, rep+1,0);
+			fractal(x+5,height,width,y1-5, rep+1,1);
 		} else if(poo==2){
-			fractal(x+5,0,width,y1+5,rep+1,1);
+			fractal(x+5,0,width,y1+5,rep+1,2);
 		}else {
-			fractal(width,y+5,x1-5,height,rep+1,1);
+			fractal(width,y+5,x1-5,height,rep+1,3);
 		}
 }
